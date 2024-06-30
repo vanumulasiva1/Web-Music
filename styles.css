@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&display=swap');
+body{
+    background-color: black;
+    background-image: url("bg1.jpg");
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    background-color: rgb(0, 0, 58);
+    color: antiquewhite;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 130%;
+    height: 60px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.navigation img{
+    width: 75px;
+    
+}
+ul li{
+    padding: 0px 25px 0px 25px;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    padding-top: 35px;
+}
+.songContainer{
+    margin: 10px 40px 100px 40px;
+    padding-top: 20px;
+    width: 40vw;
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+
+
+.songItem{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    width: 60%;
+    
+}
+.songItem img{
+    width: 50px;
+}
+.songItem i{
+    color: antiquewhite;
+    padding: 18px 5px 0px 20px;
+    cursor: pointer;
+    opacity: 100%;
+    transition: 0.4s ease-in;
+}
+.songItem:hover{
+    background-color: rgba(128, 128, 128, 0.525);
+}
+.songName{
+    font-family: 'Anek Latin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+.songName h3{
+    color: antiquewhite;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+.songName p{
+    color: antiquewhite;
+    padding-left: 15px;
+}
+
+.songContainer h1{
+    color: antiquewhite;
+    font-family: 'Anek Latin', sans-serif;
+    padding: 20px 20px 20px 100px;
+    
+}
+.picContainer{
+    width: 40vw;
+    height: 75vh;
+    margin: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.76);
+    
+}
+.songPic{
+    position: relative;
+    width: 50%;
+    padding: 12vh 2vw 12vh 25% ;
+    opacity: 100%;
+}
+.likeSongAndPic{
+    display: flex;
+    align-items: left;
+}
+.likeSong{
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+}
+.likeSong i{
+    padding: 5px;
+    padding-bottom: 9vh;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.gif{
+    position: absolute;
+    margin-left: 9.55vw;
+    margin-top: 39vh;
+}
+.gif img{
+    width: 19.5vw;
+    opacity: 0%;
+    transition: 0.4s ease-in;
+    
+}
+.picName{
+    font-family: 'Anek Latin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30%;
+    align-items: center;
+}
+.picName h2{
+    font-size: 180%;
+    color: antiquewhite;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+.picName p{
+    font-size: 150%;
+    color: antiquewhite;
+    padding-left: 15px;
+}
+.bottom{
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #00264d;
+    width: 98%;
+    height: 70px;
+    margin: 0% 1%;
+    border-radius: 10px;
+    align-items: center;
+}
+.masterSongName{
+    z-index: 1;
+    position: fixed;
+    bottom: 47px;
+    left: 55px;
+    font-size: 130%;
+    color: antiquewhite;
+    font-family: 'Anek Latin', sans-serif;
+    
+}
+.playControls{
+    display: flex;
+    color: antiquewhite;
+    padding: 15px 0px;
+}
+.playControls i{
+    cursor: pointer;
+    padding: 0px 10px;
+}
+ #Playbar{
+    width: 96%;
+    padding: 0px 10px;
+    margin: 0% 2%;
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+    display: none;
+}
